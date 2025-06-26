@@ -47,7 +47,6 @@ function type() {
 
 type();
 
-// Scroll reveal logic
 function revealOnScroll() {
     const reveals = document.querySelectorAll('.hidden');
     const windowHeight = window.innerHeight;
@@ -102,6 +101,6 @@ const form = document.getElementById('contactForm');
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-    alert('Sorry, this portfolio is not connected to a backend. Please Contact with Social media');
+    alert('Sorry, server is too busy.Please Contact with Social media');
     form.reset();
 });
